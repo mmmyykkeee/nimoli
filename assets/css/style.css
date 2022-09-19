@@ -3294,7 +3294,7 @@ hr {
 }
 .team-area .single-team .team-caption:hover .team-social a {
   color: #fff;
-  border: 1px solid #fff;
+  
 }
 .single-team:hover .team-img img {
   transform: scale(1.05);
@@ -6378,4 +6378,32 @@ circle {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+}
+
+
+.team-img img{
+  width: 30px; 
+  height: 30em; 
+  padding-left: -10px;
+}
+
+.team-social{
+  height: 300px;
+}
+
+.team-social:hover{
+  outline: none;
+  border: none;
+}
+
+.team-social a{
+  
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+.team-social a:hover{
+  outline: none;
+  border: none;
 }
