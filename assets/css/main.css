@@ -5620,3 +5620,16 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }
+
+
+@media (max-width: 767px) {
+  .slicknav_btn{
+    width: 100px;
+    background-color: red;
+  }
+
+  .slicknav_collapsed{
+    background-color: red;
+    width: 100px;
+  }
+}

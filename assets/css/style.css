@@ -2260,7 +2260,15 @@ hr {
   }
 }
 .slider-area2 {
-  background-image: url(../img/hero/hero2.png);
+  background-color:#d899ff;
+        background-image:
+        radial-gradient(at 21% 3%, hsla(315,96%,70%,1) 0px, transparent 50%),
+        radial-gradient(at 29% 90%, hsla(48,95%,72%,1) 0px, transparent 50%),
+        radial-gradient(at 49% 65%, hsla(300,64%,70%,1) 0px, transparent 50%),
+        radial-gradient(at 84% 66%, hsla(216,78%,78%,1) 0px, transparent 50%),
+        radial-gradient(at 75% 63%, hsla(75,61%,65%,1) 0px, transparent 50%),
+        radial-gradient(at 9% 75%, hsla(110,87%,75%,1) 0px, transparent 50%),
+        radial-gradient(at 98% 95%, hsla(123,84%,74%,1) 0px, transparent 50%);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -6242,6 +6250,7 @@ circle {
 
 .my-float{
 	margin-top:26px;
+  margin-right: 0px;
 }
 
 .bounce {
@@ -6307,7 +6316,21 @@ circle {
 
 @media screen and (max-width: 545px) {
   span {
-      display: none;
+      display: inline;
+  }
+  .float{
+    position:fixed;
+    width:50px;
+    height:50px;
+    bottom:80px;
+    right:15px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:1;
   }
 
   .float-button {
@@ -6324,7 +6347,8 @@ circle {
 }
 
 .location {
-  background-color: red;
+  background-color:  #2675db;
+  ;
   width: 100px;
   margin-top: 15px;
   margin-left: 47%;
@@ -6333,7 +6357,7 @@ circle {
 }
 
 .location2{
-  background-color: red;
+  background-color: #2675db;
   width: 100px;
   margin-top: 15px;
   margin-left: 53%;
