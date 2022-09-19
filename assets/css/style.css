@@ -6322,3 +6322,36 @@ circle {
       padding: 4px;
   }
 }
+
+.location {
+  background-color: red;
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 47%;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.location2{
+  background-color: red;
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 53%;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.button-contactForm{
+  width: 100px;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.button-contactForm p{
+  font-size: 15px;
+  padding: 0;
+  margin-top: -15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
