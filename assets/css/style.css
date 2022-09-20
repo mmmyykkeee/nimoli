@@ -6197,19 +6197,19 @@ circle {
 }
 
 .slide1 {
-  background-image: url("assets/img/gallery/main-entrance.jpg");
+  background-image: url("main-entrance.jpg");
 }
 
 .slide2 {
-  background-image: url("assets/img/gallery/entrance-corridor.jpg");
+  background-image: url("entrance-corridor.jpg");
 }
 
 .slide3 {
-  background-image: url("assets/img/gallery/pharmacy-front.jpg");
+  background-image: url("pharmacy-front.jpg");
 }
 
 .slide4 {
-  background-image: url("assets/img/gallery/reception.jpg");
+  background-image: url("reception.jpg");
 }
 
 .slider {
