@@ -1,10 +1,10 @@
 .home_blog-area{
     .single-blogs{
-        .blog-igm{
+        .blog-img{
             position: relative;
             overflow: hidden;
             border-radius: 5px 5px 0 0;
-            & igm{
+            & img{
                 width: 100%;
                 transform: scale(1);
                 @include transition(.5s);
@@ -87,8 +87,8 @@
 
     // hover Effect
     .single-blogs:hover{
-        .blog-igm {
-            & igm{
+        .blog-img {
+            & img{
                 transform: scale(1.1);
                 -webkit-transform: scale(1.1);
                 -moz-transform: scale(1.1);
@@ -329,7 +329,7 @@
 .latest_blog_inner {}
 
 .l_blog_item {
-    .l_blog_igm {}
+    .l_blog_img {}
 
     .l_blog_text {
         .date {
@@ -396,7 +396,7 @@
 .causes_item {
     background: #fff;
 
-    .causes_igm {
+    .causes_img {
         position: relative;
 
         .c_parcent {
@@ -492,7 +492,7 @@
     .thumb {
         overflow: hidden;
 
-        igm {
+        img {
             transition: all 0.7s linear;
         }
     }
@@ -518,7 +518,7 @@
     }
 
     &:hover {
-        igm {
+        img {
             transform: scale(1.23) rotate(10deg);
         }
     }
@@ -567,7 +567,7 @@
     text-align: center;
     cursor: pointer;
 
-    igm {
+    img {
         max-width: 100%;
     }
 
@@ -704,7 +704,7 @@
     }
 }
 
-.blog_item_igm {
+.blog_item_img {
     position: relative;
 
     .blog_item_date {
@@ -1302,7 +1302,7 @@
             padding: 20px 8px;
         }
 
-        igm {
+        img {
             width: 90px;
             height: 90px;
             border-radius: 50%;
@@ -1358,7 +1358,7 @@
                 margin-right: 20px;
                 background: #000;
 
-                igm {
+                img {
                      @include transition(.3s);
                 }
             }
@@ -1375,7 +1375,7 @@
                 }
 
                 .thumb {
-                    igm {
+                    img {
                         opacity: .5;
                     }
                 }
@@ -1393,7 +1393,7 @@
                 margin-left: 20px;
                 background: #000;
 
-                igm {
+                img {
                      @include transition(.3s);
                 }
             }
@@ -1410,7 +1410,7 @@
                 }
 
                 .thumb {
-                    igm {
+                    img {
                         opacity: .5;
                     }
                 }
@@ -1483,7 +1483,7 @@
     .thumb {
         margin-right: 20px;
 
-        igm {
+        img {
             width: 70px;
             border-radius: 50%;
         }

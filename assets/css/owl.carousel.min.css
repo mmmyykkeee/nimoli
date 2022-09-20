@@ -46,7 +46,7 @@
   -webkit-backface-visibility: hidden;
   -webkit-touch-callout: none;
 }
-.owl-carousel .owl-item igm {
+.owl-carousel .owl-item img {
   display: block;
   width: 100%;
 }
@@ -123,7 +123,7 @@
   opacity: 0;
   transition: opacity 0.4s ease;
 }
-.owl-carousel .owl-item igm.owl-lazy {
+.owl-carousel .owl-item img.owl-lazy {
   transform-style: preserve-3d;
 }
 .owl-carousel .owl-video-wrapper {

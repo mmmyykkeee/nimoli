@@ -1,5 +1,5 @@
 .department_area{
-    background-image: url(../igm/gallery/department.png);
+    background-image: url(../img/gallery/department.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -14,7 +14,7 @@
     }
     .dept_main_info{
         .dept_thumb{
-            igm{
+            img{
                 width: 100%;
                 @media #{$mid_device} {
                     max-width: 100%;

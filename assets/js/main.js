@@ -179,8 +179,8 @@
     mailChimp();
 
 
-// 12 Pop Up igm
-    var popUp = $('.single_gallery_part, .igm-pop-up');
+// 12 Pop Up Img
+    var popUp = $('.single_gallery_part, .img-pop-up');
       if(popUp.length){
         popUp.magnificPopup({
           type: 'image',

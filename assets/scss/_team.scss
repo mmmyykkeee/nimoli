@@ -1,8 +1,8 @@
 .team-area{
     .single-team{
-        .team-igm{
+        .team-img{
             overflow: hidden;
-            igm{
+            img{
                 width: 100%;
                 transform:scale(1);
                 transition: all 0.6s ease-out 0s;
@@ -54,7 +54,7 @@
         }
     }
 }
-.single-team:hover .team-igm igm {
+.single-team:hover .team-img img {
 	transform:scale(1.05);
 }
 
