@@ -618,45 +618,94 @@
                             </div>
                         </div>
                         <!--End Section Tittle  -->
-                        <form id="contact-form" action="contact_process.php" method="POST">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-box user-icon mb-30">
-                                        <input type="text" name="name" placeholder="Name">
-                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="flex items-center min-h-screen bg-gray-100 dark:bg-gray-900">
+                            <div class="container mx-auto">
+                              <div class="max-w-xl mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
+                                <div class="text-center">
+                                  <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">
+                                    <!-- Contact Us and Book an appointment -->
+                                  </h1>
+                                  <p class="text-gray-400 dark:text-gray-400">
+                                    Contact Us and Book an appointment
+                                  </p>
                                 </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-box email-icon mb-30">
-                                        <input type="text" name="email" placeholder="Phone">
+                                <div class="m-7">
+                                  <form action="https://api.web3forms.com/submit" method="POST" id="form" class="needs-validation" novalidate>
+                                    <input type="hidden" name="access_key" value="1fab7eb2-28e6-48c0-83b3-e2d70546864d" />
+                                    <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                                    <input type="checkbox" name="botcheck" id="" style="display: none;" />
+                          
+                                    <div class="flex mb-6 space-x-4">
+                                      <div class="w-full md:w-1/2">
+                                        <!-- <label for="fname" class=" col-lg-6 col-md-6 block mb-2 text-sm text-gray-600 dark:text-gray-400">First Name</label> -->
+                                        <input type="text" name="name" id="first_name" placeholder="First Name" required class="col-lg-6 col-md-6 form-box user-icon mb-30 w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                                        <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                          Please provide your first name.
+                                        </div>
+                                      </div>
+                                          <div class="w-full md:w-1/2">
+                                        <!-- <label for="lname" class=" col-lg-6 col-md-6 block mb-2 text-sm text-gray-600 dark:text-gray-400">Last Name</label> -->
+                                        <input type="text" name="last_name" id="lname" placeholder="Second Name" required class="col-lg-6 col-md-6 form-box user-icon mb-30 w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                                        <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                          Please provide your last name.
+                                        </div>
+                                      </div>
                                     </div>
+                          
+                                    <div class="flex mb-6 space-x-4">
+                                      <div class="w-full md:w-1/2">
+                                        <!-- <label for="email" class="col-lg-6 col-md-6 block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label> -->
+                                        <input type="email" name="email" id="email" placeholder="example@email.com" required class="col-lg-6 col-md-6 form-box email-icon mb-30 w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                                        <div class="empty-feedback text-red-400 text-sm mt-1">
+                                          Please provide your email address.
+                                        </div>
+                                        <div class="invalid-feedback text-red-400 text-sm mt-1">
+                                          <!-- Please provide a valid email address. -->
+                                        </div>
+                                      </div>
+                          
+                                      <div class="w-full md:w-1/2">
+                                        <!-- <label for="phone" class="col-lg-6 col-md-6 block text-sm mb-2 text-gray-600 dark:text-gray-400">Phone Number</label> -->
+                                        <input type="text" name="phone" id="phone" placeholder="+254 712 345 678" required class="col-lg-6 col-md-6 mb-30 form-box user-icon mb-30 w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                          
+                                        <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                          Please provide your phone number.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="mb-6">
+                                      <!-- <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label> -->
+                          
+                                      <textarea rows="5" name="message" id="message" placeholder="Your Message and Appointment" class=" col-lg-12 form-box message-icon mb-65 w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" required></textarea>
+                                      <div class="  empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                        Please enter your message.
+                                      </div>
+                                    </div>
+                                    <div class="mb-6">
+                                      <button class="btnn" type="submit" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
+                                        Send Message
+                                      </button>
+                                    </div>
+                                    <p class="text-base text-center text-gray-400" id="result"></p>
+                                  </form>
                                 </div>
-                                <div class="col-lg-6 col-md-6 mb-30">
-                                    <div class="select-itms">
-                                        <select name="select" id="select2">
-                                            <option value="">Ultra-Sound</option>
-                                            <option value="">Lab Test</option>
-                                            <option value="">ANC & CWC</option>
-                                            <option value="">Doctor's Appointment</option>
-                                            <option value="">Theater</option>
-                                            <option value="">Gynaecologist</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-box subject-icon mb-30">
-                                        <input type="Email" name="subject" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-box message-icon mb-65">
-                                        <textarea name="message" id="message" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="submit-info">
-                                        <button class="btnn" type="submit">Submit Now <i class="ti-arrow-right"></i> </button>
-                                    </div>
-                                </div>
+                              </div>
                             </div>
-                        </form>
+                          </div>
+
+                          
+                        
                     </div>
                 </div>
             </div>
@@ -861,6 +910,7 @@
     </div>
 
     <!-- JS here -->
+    <script src="index.js"></script>
     <script>
         var curpage = 1;
 var sliding = false;
@@ -993,9 +1043,12 @@ document.onkeydown = e => {
 };
 
 //for codepen header
-// setTimeout(() => {
-// 	rightSlide();
-// }, 500);
+setTimeout(() => {
+rightSlide();
+}, 500);
+
+
+
 
     </script>
 <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
@@ -1034,6 +1087,7 @@ document.onkeydown = e => {
     <!-- Jquery Plugins, main Jquery -->	
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="index.js"></script>
     
     </body>
 </html>

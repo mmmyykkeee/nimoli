@@ -376,7 +376,7 @@ hr {
   transition: 0.6s;
   border: 2px solid #000;
   padding: 6px 58px 29px 19px;
-  width: 13em !important;
+  width: 8em !important;
 }
 
 .btn i {
@@ -6663,4 +6663,23 @@ circle {
     font-size: 12px !important;
     
 }
+}
+
+
+.invalid-feedback,
+.empty-feedback {
+  display: none;
+}
+
+.was-validated :placeholder-shown:invalid ~ .empty-feedback {
+  display: block;
+}
+
+.was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
+  display: block;
+}
+
+.is-invalid,
+.was-validated :invalid {
+  border-color: #dc3545;
 }
