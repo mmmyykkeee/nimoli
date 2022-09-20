@@ -47,6 +47,7 @@
   color: #c6a16e;
   text-transform: uppercase;
   cursor: pointer;
+  box-shadow: none !important;
 }
 .boxed-btn:hover {
   background: #c6a16e;

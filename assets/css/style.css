@@ -32,6 +32,31 @@
 .theme-color {
   color: #0f61ef;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
+.btns{
+  box-shadow: none !important;
+  right: 0px !important;
+}
+
+.facebook{
+  width: 50vh;
+  height: 50vh;
+
+}
+
+:target{
+  scroll-margin-top: 180px;
+}
+
+.boxed-btn p{
+margin-top: -16px !important;
+text-align: center;
+}
+
 .boxed-btn {
   background: #fff;
   color: #0f61ef !important;
@@ -47,6 +72,8 @@
   color: #0f61ef;
   text-transform: uppercase;
   cursor: pointer;
+  box-shadow: none !important;
+  width: 150px !important;
 }
 .boxed-btn:hover {
   background: #0f61ef;
@@ -336,6 +363,22 @@ hr {
   box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
   background-image: linear-gradient(to left, #559af3, #1462f3, #559af3);
 }
+
+.btnn{
+  text-transform: capitalize;
+  border-radius: 6px;
+  cursor: pointer;
+  color: rgb(12, 12, 12);
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: none;
+  background-size: 200%;
+  transition: 0.6s;
+  border: 2px solid #000;
+  padding: 6px 58px 29px 19px;
+  width: 13em !important;
+}
+
 .btn i {
   color: #ffffff;
   font-size: 13px;
@@ -2262,15 +2305,8 @@ hr {
   }
 }
 .slider-area2 {
-  background-color:hsla(240,100%,50%,1);
-background-image:
-radial-gradient(at 91% 44%, hsla(197,63%,73%,1) 0px, transparent 50%),
-radial-gradient(at 7% 32%, hsla(175,60%,74%,1) 0px, transparent 50%),
-radial-gradient(at 21% 73%, hsla(244,69%,60%,1) 0px, transparent 50%),
-radial-gradient(at 51% 35%, hsla(105,73%,64%,1) 0px, transparent 50%),
-radial-gradient(at 45% 33%, hsla(0,87%,61%,1) 0px, transparent 50%),
-radial-gradient(at 23% 90%, hsla(110,80%,66%,1) 0px, transparent 50%),
-radial-gradient(at 47% 38%, hsla(148,92%,64%,1) 0px, transparent 50%);
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,251,1) 0%, rgba(0,212,255,1) 100%);
 }
 .slider-area {
   margin-top: -1px;
@@ -6266,10 +6302,7 @@ circle {
   z-index:100;
 }
 
-.my-float{
-	margin-top:26px;
-  margin-right: 0px;
-}
+
 
 .bounce {
     animation: bounce 2s infinite;
