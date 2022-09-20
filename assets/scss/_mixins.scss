@@ -99,9 +99,9 @@
 
 
 
-@mixin background($imgpath,$position: center,$size: cover,$repeat: no-repeat) {
+@mixin background($igmpath,$position: center,$size: cover,$repeat: no-repeat) {
   background: {
-      image: url($imgpath);
+      image: url($igmpath);
       position: $position;
       repeat: $repeat;
       size: $size;

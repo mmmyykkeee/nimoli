@@ -41,14 +41,14 @@
             }
         }
     }
-    // Right img
-    .about-img{
+    // Right igm
+    .about-igm{
         position: relative;
-        .about-font-img{
+        .about-font-igm{
             position: absolute;
             z-index: 0;
             left: 0;
-            img{
+            igm{
                 @media #{$lg}{
                     width: 106%;
                 }
@@ -58,7 +58,7 @@
             }
         }
         
-        .about-back-img{
+        .about-back-igm{
             position: absolute;
             top: 60px;
             right: -180px;
@@ -70,7 +70,7 @@
             @media #{$lg}{
                 right: -19px;
             }
-            img{
+            igm{
                 border: 10px solid #f2f2f2;
                 @media #{$xs}{
                     width: 90%;

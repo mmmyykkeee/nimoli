@@ -22,18 +22,18 @@
                 visibility:visible;
                 }
         }
-        .gallery-img{
+        .gallery-igm{
             transform:scale(1.06);
             @include transition(.4s);
         }
-        // img
-        .big-img{
+        // igm
+        .big-igm{
             position: relative;
             height: 690px;
             background-size: cover;
             background-repeat: no-repeat;
         }
-        .small-img{
+        .small-igm{
             position: relative;
             height: 330px;
             background-size: cover;
@@ -44,7 +44,7 @@
 }
 
 
-.single-gallery:hover .gallery-img{
+.single-gallery:hover .gallery-igm{
     transform:scale(1);
    }
 
