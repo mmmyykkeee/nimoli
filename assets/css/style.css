@@ -377,6 +377,19 @@ hr {
   border: 2px solid #000;
   padding: 6px 58px 29px 19px;
   width: 8em !important;
+  
+}
+
+.download{
+ background-color: #2e2eeb ;
+  width: 11em !important;
+  /* position: absolute;
+  top: 40em; */
+  left: 20px;
+}
+.download a i{
+  font-size: 10px;
+
 }
 
 .btn i {
