@@ -380,13 +380,37 @@ hr {
   
 }
 
+
 .download{
  background-color: #2e2eeb ;
   width: 11em !important;
   /* position: absolute;
   top: 40em; */
   left: 20px;
+  animation: breathing 2s infinite;
 }
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  50% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+
 .download a i{
   font-size: 10px;
 
@@ -583,7 +607,8 @@ hr {
 @media (max-width: 575px) {
   #scrollUp,
   #back-top {
-    right: 16px;
+    right: 160px;
+    overflow: hidden;
   }
 }
 #scrollUp a i,
