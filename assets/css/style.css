@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap");
+*,*::before,*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .white-bg {
   background: #ffffff;
 }
@@ -47,6 +53,36 @@ html{
   height: 50vh;
 
 }
+
+.location-buttons{
+  display: flex;
+  justify-content: center !important;
+  position: relative !important;
+  margin: 35px  !important;
+  
+}
+.contact-section{
+  
+  position: relative;
+}
+
+.location-buttons > button{
+background-color:  #2675db;
+width: 100px;
+margin: 1px !important;
+border-radius: 5px;
+margin-top: 15px;
+position: relative;
+box-shadow: none;
+}
+
+
+.location2{
+  width: 100px;
+  padding-left: 15px !important;
+  border-radius: 5px;
+  box-shadow: none;
+} 
 
 :target{
   scroll-margin-top: 180px;
@@ -4785,20 +4821,18 @@ width: 50em;
 .modal-message .modal-dialog .modal-content .modal-header p {
   display: block;
 }
-.contact-section {
-  padding: 130px 0 100px;
-}
+
 @media (max-width: 991px) {
-  .contact-section {
+  /* .contact-section {
     padding: 70px 0 40px;
-  }
+  } */
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .contact-section {
+  /* .contact-section {
     padding: 80px 0 50px;
-  }
+  } */
 }
-.contact-section .btn_2 {
+/* .contact-section .btn_2 {
   background-color: #191d34;
   padding: 18px 60px;
   border-radius: 50px;
@@ -4806,7 +4840,7 @@ width: 50em;
 }
 .contact-section .btn_2:hover {
   background-color: #1f2b7b;
-}
+} */
 .breadcam_bg {
   background-image: url(../img/banner/bradcam.png);
 }
@@ -6053,7 +6087,7 @@ del {
 #carousel{
 	width: 520px;
 	height: 300px;
-	border : 1px solid red;
+	
 	margin: 50px auto 0;
 	overflow: hidden;
 	position: relative;
@@ -6085,8 +6119,8 @@ img:nth-child(2){-webkit-animation-delay: 10s}
   left:0;
   overflow: hidden;
   position: absolute;
-  border-radius: 16px;
-  box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+  
 }
 
 svg {
@@ -6444,24 +6478,7 @@ circle {
   }
 }
 
-.location {
-  background-color:  #2675db;
-  ;
-  width: 100px;
-  margin-top: 15px;
-  margin-left: 47%;
-  border-radius: 5px;
-  box-shadow: none;
-}
 
-.location2{
-  background-color: #2675db;
-  width: 100px;
-  margin-top: 15px;
-  margin-left: 53%;
-  border-radius: 5px;
-  box-shadow: none;
-}
 
 .button-contactForm{
   width: 100px;
@@ -6518,173 +6535,15 @@ circle {
   justify-content: center;
 }
 
+
+
 .maps{
-  width: 90vw;
-  height: 50vh;
-  margin-left: -10vw; 
+  width: 100% !important;
+  aspect-ratio: 2/1;
   border: 0;
 }
 
-@media(min-width:680px){
-  .maps{
-    width: 90vw;
-    height: 50vh;
-    margin-left: -10vw; 
-    border: 0;
-  }
-}
 
-@media(max-width:768px){
-.maps{
-  width: 90vw;
-  height: 50vh;
-  margin-left: -18vw; 
-  border: 0;
-}
-}
-
-@media(max-width:500px){
-
-  .maps{
-    width: 95vw;
-    height: 50vh;
-    margin-left: -10vw !important; 
-    border: 0;
-  }
-}
-
-@media (max-width:679px){
-  .maps{
-    width: 95vw;
-    height: 50vh;
-    margin-left: -18vw; 
-    border: 0;
-  }
-  
-}
-@media(max-width:460px){
-  .maps{
-    width: 95vw;
-    height: 50vh;
-    margin-left: -10vw !important; 
-    border: 0;
-  }
-}
-
-@media(min-width:300px){
-  .maps{
-    width: 89vw !important;
-    height: 50vh;
-    margin-left: -20vw !important; 
-    border: 0;
-  }
-
-  .location{
-    background-color: #2675db;
-    margin-left: 50px;
-  }
-
-}
-
-@media(max-width:361px){
-  .maps{
-    width: 95vw;
-    height: 50vh;
-    margin-left: -1vw !important; 
-    border: 0;
-  }
-
-}
-
-@media(max-width:992px){
-  .maps{
-    width: 95vw;
-    height: 50vh;
-    margin-left: -18vw !important; 
-    border: 0;
-  }
-
-}
-@media(min-width:992px){
-  .maps{
-    width: 95vw;
-    height: 50vh;
-    margin-left: -7vw !important; 
-    border: 0;
-  }
-
-}
-
-@media(max-width:1100px){
-  .maps{
-    width: 95vw;
-    height: 50vh;
-    margin-left: -10vw !important; 
-    border: 0;
-  }
-
-}
-
-@media(min-width:1101px){
-  .maps{
-    width: 95vw;
-    height: 50vh;
-    margin-left: -10vw !important; 
-    border: 0;
-  }
-
-}
-
-@media(max-width:1199px){
-  .maps{
-    width: 95vw;
-    height: 50vh;
-    margin-left: -14vw !important; 
-    border: 0;
-  }
-
-}
-
-@media(min-width:1200px){
-  .maps{
-    width: 95vw;
-    height: 50vh;
-    margin-left: -4vw !important; 
-    border: 0;
-  }
-
-}
-
-@media(max-width:1299px){
-  .maps{
-    width: 95vw;
-    height: 50vh;
-    margin-left: -8vw !important; 
-    border: 0;
-  }
-
-}
-
-@media(min-width:1300px){
-  .maps{
-    width: 95vw;
-    height: 50vh;
-    margin-left: -8vw !important; 
-    border: 0;
-  }
-
-}
-
-
-@media(min-width:1400px){
-  .maps{
-    width: 95vw;
-    height: 50vh;
-    margin-left: -20vw !important; 
-    border: 0;
-  }
-
-}
 
 .founder-img {
   width: 5px;

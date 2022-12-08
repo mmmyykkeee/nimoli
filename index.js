@@ -72,3 +72,8 @@
 	});
   })();
   
+
+
+window.addEventListener("resize", function () {
+	document.querySelector(".width").innerHTML = "The width is "+ window.innerWidth;
+});
