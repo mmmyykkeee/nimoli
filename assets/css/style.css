@@ -629,7 +629,7 @@ hr {
   background: #0f61ef;
   height: 50px;
   width: 50px;
-  right: 31px;
+  right: 3% !important;
   bottom: 18px;
   position: fixed;
   color: #fff;
@@ -641,8 +641,7 @@ hr {
   box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
 }
 @media (max-width: 575px) {
-  #scrollUp,
-  #back-top {
+  #scrollUp {
     right: 160px;
     overflow: hidden;
   }
@@ -6539,7 +6538,7 @@ circle {
 
 .maps{
   width: 100% !important;
-  aspect-ratio: 2/1;
+  aspect-ratio: 4/3;
   border: 0;
 }
 

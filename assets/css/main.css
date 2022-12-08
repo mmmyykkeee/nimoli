@@ -1566,7 +1566,7 @@ hr {
   border-top-color: #0078ff;
 }
 .preloader .preloader-img {
-  position: absolute;
+  position: absolut;
   top: 50%;
   z-index: 200;
   left: 0;
