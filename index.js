@@ -74,6 +74,6 @@
   
 
 
-window.addEventListener("resize", function () {
-	document.querySelector(".width").innerHTML = "The width is "+ window.innerWidth;
-});
+function hideThis() {
+	document.getElementById("preloader-active").style.visibility = "hidden";
+}

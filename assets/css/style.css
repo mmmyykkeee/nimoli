@@ -6534,7 +6534,14 @@ circle {
   justify-content: center;
 }
 
-
+.headert{
+  position: absolute;
+  top: 300px;
+  cursor: pointer;
+  width: 10em;
+  display: flex;
+  justify-content: flex-start;
+}
 
 .maps{
   width: 100% !important;
