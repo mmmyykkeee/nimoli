@@ -629,7 +629,7 @@ hr {
   background: #0f61ef;
   height: 50px;
   width: 50px;
-  right: 3% !important;
+  right: 2%;
   bottom: 18px;
   position: fixed;
   color: #fff;
@@ -640,6 +640,18 @@ hr {
   border: 2px solid transparent;
   box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
 }
+
+iframe{
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1200px){
+  #scrollUp,
+#back-top {
+right: 3%;
+}
+}
+
 @media (max-width: 575px) {
   #scrollUp {
     right: 160px;
@@ -2851,6 +2863,7 @@ width: 50em;
   color: #3eadf8;
   line-height: 1;
   margin-bottom: 13px;
+  margin-left: 50px;
 }
 @media (max-width: 767px) {
   .department_area .depart_ment_tab .nav li a i {
@@ -3101,11 +3114,11 @@ width: 50em;
   height: 837px;
 }
 .contact-form-main .form-tittle {
-  padding: 111px 51px 0px 67px;
+  padding: 11px 51px 0px 67px;
 }
 @media (max-width: 575px) {
   .contact-form-main .form-tittle {
-    padding: 50px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
   }
 }
 .contact-form-main .form-wrapper {
@@ -6421,9 +6434,8 @@ circle {
 }
 
 .fa-whatsapp {
-  font-size: 20px !important;
-  padding-right: 5px;
-  padding-left: 5px;
+  font-size: 40px !important;
+  padding-top: 10px;
 }
 
 @keyframes whatsapp-animation {

@@ -460,7 +460,7 @@ hr {
 .breadcrumb > .active {
   color: #888;
 }
-#scrollUp {
+/* #scrollUp {
   background: #c6a16e;
   height: 50px;
   width: 50px;
@@ -472,7 +472,7 @@ hr {
   border-radius: 50%;
   line-height: 48px;
   border: 2px solid transparent;
-}
+} */
 @media (max-width: 767px) {
   #scrollUp {
     right: 16px;
