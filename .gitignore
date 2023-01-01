@@ -64,3 +64,5 @@ node_modules/
 
 # dotenv environment variables file
 .env
+assets/img/hero/hero3.png
+assets/img/hero/hero4.png
