@@ -6566,7 +6566,9 @@ circle {
   border: 0;
 }
 
-
+.header-area{
+  background: linear-gradient(360deg, #cfcfcf,#d5dada);
+}
 
 .founder-img {
   width: 5px;
@@ -6580,7 +6582,7 @@ circle {
 }
 @media(min-width:992px){
   .main-menu li a{
-    font-size: 12px !important;
+    font-size: 18px !important;
     
 }
 }
