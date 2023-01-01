@@ -2395,11 +2395,16 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,251,1) 0%, rgba(0
 }
 .slider-area {
   margin-top: -1px;
-  background-image: url(../img/hero/h1_hero.png);
+  background-image: url(../img/hero/hero.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
+
+.letters, .p{
+  color: #fff !important;
+}
+
 .slider-area .hero__caption {
   overflow: hidden;
 }
