@@ -3120,9 +3120,11 @@ width: 50em;
 }
 .contact-form-main .from-left {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 46%;
+  top: 20px;
+  left: 5px;
+  right: 20px !important;
+  width: 40%;
+  height: 80%;
 }
 .contact-form-main .from-left img {
   width: 100%;
